@@ -275,58 +275,112 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-12 md:py-20 px-4 bg-black">
-        <div class="container mx-auto text-center max-w-4xl">
-            <h2 class="text-4xl font-bold mb-12">TABELA DE PREÇOS</h2>
-            <div class="text-left text-xl space-y-4">
-                <div class="lounge-menu-item">
-                    <span class="name">CORTE TESOURA OU DEGRADÊ</span><span class="dots"></span><span class="price">R$
-                        43,00</span>
+    <section id="services" class="py-12 md:py-24 px-4 bg-black relative">
+        <div class="container mx-auto text-center max-w-4xl relative z-10">
+            <h2 class="text-4xl md:text-5xl font-bold mb-12 text-white drop-shadow-lg">TABELA DE PREÇOS</h2>
+
+            <div
+                class="text-left text-lg md:text-xl space-y-4 bg-[#111111]/90 p-6 md:p-10 rounded-2xl border border-gray-800 shadow-2xl backdrop-blur-sm">
+
+                <!-- Serviços Principais -->
+                <div class="lounge-menu-item hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide">CORTE SOCIAL</span><span
+                        class="dots border-gray-600"></span><span class="price text-gold font-bold">R$ 30,00</span>
                 </div>
-                <div class="lounge-menu-item">
-                    <span class="name">CORTE SOMENTE COM MÁQUINA</span><span class="dots"></span><span class="price">R$
-                        37,00</span>
+                <div class="lounge-menu-item hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide">CORTE DEGRADÊ</span><span
+                        class="dots border-gray-600"></span><span class="price text-gold font-bold">R$ 35,00</span>
                 </div>
-                <div class="lounge-menu-item">
-                    <span class="name">HIDRATAÇÃO CAPILAR</span><span class="dots"></span><span class="price">R$
-                        25,00</span>
+                <div class="lounge-menu-item hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide">CORTE DEGRADÊ NAVALHADO</span><span
+                        class="dots border-gray-600"></span><span class="price text-gold font-bold">R$ 40,00</span>
                 </div>
-                <div class="lounge-menu-item">
-                    <span class="name">BARBA</span><span class="dots"></span><span class="price">R$ 32,00</span>
+                <div class="lounge-menu-item hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide flex flex-col sm:inline-block">CORTE SIMPLES
+                        <span class="text-sm text-gray-400 normal-case">(Máquina uma altura)</span></span><span
+                        class="dots border-gray-600"></span><span class="price text-gold font-bold">R$ 20,00</span>
                 </div>
-                <div class="lounge-menu-item">
-                    <span class="name">HIDRATAÇÃO DE BARBA</span><span class="dots"></span><span class="price">R$
-                        25,00</span>
+                <div class="lounge-menu-item hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide">DESENHAR A BARBA</span><span
+                        class="dots border-gray-600"></span><span class="price text-gold font-bold">R$ 25,00</span>
                 </div>
-                <div class="lounge-menu-item">
-                    <span class="name">BARBOTERAPIA COM OZÔNIO</span><span class="dots"></span><span class="price">R$
-                        50,00</span>
+                <div class="lounge-menu-item hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide">TIRAR TODA A BARBA</span><span
+                        class="dots border-gray-600"></span><span class="price text-gold font-bold">R$ 20,00</span>
                 </div>
-                <div class="lounge-menu-item">
-                    <span class="name">DEPILAÇÃO DE NARIZ COM CERA</span><span class="dots"></span><span
-                        class="price">R$ 30,00</span>
+                <div class="lounge-menu-item hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide flex flex-col sm:inline-block">DESENHAR A
+                        BARBA <span class="text-sm text-gray-400 normal-case">Somente com máquina</span></span><span
+                        class="dots border-gray-600"></span><span class="price text-gold font-bold">R$ 10,00</span>
                 </div>
-                <div class="lounge-menu-item">
-                    <span class="name">DEPILAÇÃO DE ORELHA COM CERA</span><span class="dots"></span><span
-                        class="price">R$ 20,00</span>
+                <div class="lounge-menu-item hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide flex flex-col sm:inline-block">TIRAR A BARBA
+                        <span class="text-sm text-gray-400 normal-case">Somente com máquina</span></span><span
+                        class="dots border-gray-600"></span><span class="price text-gold font-bold">R$ 5,00</span>
                 </div>
-                <div class="lounge-menu-item">
-                    <span class="name">LIMPEZA DE PELE FACIAL (MÁSCARA)</span><span class="dots"></span><span
-                        class="price">R$ 45,00</span>
+                <div class="lounge-menu-item hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide">SOBRANCELHA MASCULINA</span><span
+                        class="dots border-gray-600"></span><span class="price text-gold font-bold">R$ 10,00</span>
                 </div>
-                <div class="lounge-menu-item">
-                    <span class="name">LUZES</span><span class="dots"></span><span class="price">R$ 150,00</span>
+                <div class="lounge-menu-item hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide">PEZINHO</span><span
+                        class="dots border-gray-600"></span><span class="price text-gold font-bold">R$ 10,00</span>
                 </div>
-                <div class="lounge-menu-item">
-                    <span class="name">PLATINADO</span><span class="dots"></span><span class="price">R$ 140,00</span>
+
+                <!-- Combo 1 -->
+                <div class="pt-8 pb-4">
+                    <h3
+                        class="text-3xl font-oswald text-white tracking-widest inline-block border-b-2 border-gold pb-1 mb-2">
+                        COMBO</h3>
                 </div>
-                <div class="lounge-menu-item">
-                    <span class="name">ACABAMENTO</span><span class="dots"></span><span class="price">R$ 25,00</span>
+
+                <div class="lounge-menu-item hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide">CORTE SOCIAL + SOBRANCELHA</span><span
+                        class="dots border-gray-600"></span><span class="price text-gold font-bold">R$ 35,00</span>
                 </div>
-                <div class="lounge-menu-item">
-                    <span class="name">SOBRANCELHA TESOURA/NAVALHA</span><span class="dots"></span><span
-                        class="price">R$ 15,00</span>
+                <div class="lounge-menu-item hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide">CORTE DEGRADÊ + SOMBRACELHA</span><span
+                        class="dots border-gray-600"></span><span class="price text-gold font-bold">R$ 40,00</span>
                 </div>
+                <div class="lounge-menu-item hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide">CORTE DEGRADÊ NAVALHADO +
+                        SOMBRACELHA</span><span class="dots border-gray-600"></span><span
+                        class="price text-gold font-bold">R$ 45,00</span>
+                </div>
+
+                <!-- Combo 2 -->
+                <div class="pt-8 pb-4">
+                    <h3
+                        class="text-3xl font-oswald text-white tracking-widest inline-block border-b-2 border-gold pb-1 mb-2">
+                        COMBO</h3>
+                </div>
+
+                <div
+                    class="lounge-menu-item items-center md:items-baseline hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide flex flex-col md:inline-block">CORTE SOCIAL +
+                        BARBA <span class="text-sm text-gold/80 block md:inline md:ml-1 mt-1 md:mt-0">[Sombracelha
+                            Cortesia]</span></span>
+                    <span class="dots border-gray-600 hidden md:block"></span>
+                    <span class="price text-gold font-bold ml-auto md:ml-4">R$ 55,00</span>
+                </div>
+                <div
+                    class="lounge-menu-item items-center md:items-baseline hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide flex flex-col md:inline-block">CORTE DEGRADÊ +
+                        BARBA <span class="text-sm text-gold/80 block md:inline md:ml-1 mt-1 md:mt-0">[Sombracelha
+                            Cortesia]</span></span>
+                    <span class="dots border-gray-600 hidden md:block"></span>
+                    <span class="price text-gold font-bold ml-auto md:ml-4">R$ 60,00</span>
+                </div>
+                <div
+                    class="lounge-menu-item items-center md:items-baseline hover:text-gold transition-colors duration-300">
+                    <span class="name font-medium uppercase tracking-wide flex flex-col md:inline-block">CORTE DEGRADÊ
+                        NAVALHADO + BARBA <span
+                            class="text-sm text-gold/80 block md:inline md:ml-1 mt-1 md:mt-0">[Sombracelha
+                            Cortesia]</span></span>
+                    <span class="dots border-gray-600 hidden md:block"></span>
+                    <span class="price text-gold font-bold ml-auto md:ml-4">R$ 65,00</span>
+                </div>
+
             </div>
         </div>
     </section>
